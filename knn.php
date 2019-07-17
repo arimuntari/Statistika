@@ -1,4 +1,5 @@
 <?php
+include "error.php";
 $title = 'knn';
 $jmldata = $_REQUEST['jmldata']; 
 $jmlk = $_REQUEST['jmlk']; 

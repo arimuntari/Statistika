@@ -1,4 +1,5 @@
 <?php
+include "error.php";
 $data = $_REQUEST['data']; 
 $class = $_REQUEST['class']; 
 if(!empty($data)){

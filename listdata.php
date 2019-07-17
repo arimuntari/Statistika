@@ -1,4 +1,6 @@
 <?php
+
+include "error.php";
 $path    = 'image';
 $files = array_diff(scandir($path), array('..', '.'));
 $no=0;

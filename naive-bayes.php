@@ -1,4 +1,5 @@
 <?php
+include "error.php";
 $title = 'nb';
 $jmldata = $_REQUEST['jmldata']; 
 $jmlattr = $_REQUEST['jmlattr']; 
